@@ -1,0 +1,52 @@
+body {
+  background: #fffff8;
+  font-family: "Oswald", sans-serif;
+  margin: 0;
+}
+
+#app {
+  background: #131417;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 28px;
+}
+h1 {
+    text-align: center;
+}
+.wrapper {
+  background: #565b67;
+  max-width: 750px;
+  max-height: 450px;
+  border-radius: 15px;
+  padding: 25px 50px;
+}
+
+.container {
+  display: flex;
+}
+
+.zip,
+.feeling {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 15px;
+}
+button {
+    padding: 10px;
+    width: 100%;
+    border-radius: 5px;
+}
+span {
+    color: lightblue;
+}
+.left, .right {
+    margin: 10px;
+}
+.left {
+    margin-right: 55px;
+}
+input[type='text'] {
+    padding: 10px;
+}
